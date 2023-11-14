@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Quiz from './components/Quiz';
+import Quiz from './src/components/Quiz';
 
 export default function App() {
   return (
