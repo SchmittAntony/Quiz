@@ -1,7 +1,9 @@
+
 import React from 'react';
-import { View, Button } from 'react-native';
+import { View, Button, TouchableOpacity, Text } from 'react-native';
 import Pergunta from './Pergunta';
 import perguntas from '../assets/perguntas';
+import styles from '../styles/QuizStyles';
 
 const Quiz = () => {
   const [indicePergunta, setIndicePergunta] = React.useState(0);
@@ -18,6 +20,10 @@ const Quiz = () => {
       <Button title="Próxima Pergunta" onPress={avancarPergunta} />
     </View>
   );
-}
+
+};
 
 export default Quiz;
+
+
+
